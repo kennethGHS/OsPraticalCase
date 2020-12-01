@@ -10,6 +10,8 @@ public class QuadraticIntegralProcess extends Process{
     double constantC;
     double constantB;
     double constantA;
+    final int resources = 3;
+
     public QuadraticIntegralProcess(double constantA, double constantB, double constantC, int procResource) {
         this.constantB = constantB;
         this.constantA = constantA;

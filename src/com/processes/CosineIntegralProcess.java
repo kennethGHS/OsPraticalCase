@@ -3,6 +3,8 @@ import java.lang.*;
 
 public class CosineIntegralProcess extends Process {
 double multiplyConstant;
+final int resources = 2;
+
 public CosineIntegralProcess(double multiplyConstant, int procResource){
         this.procResource = procResource;
         this.multiplyConstant = multiplyConstant;

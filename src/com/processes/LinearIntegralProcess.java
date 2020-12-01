@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public class LinearIntegralProcess extends Process {
     double constantA;
     double constantB;
+    final int resources = 1;
     public LinearIntegralProcess(double constantA, double constantB, int procResource){
         this.constantA = constantA;
         this.constantB = constantB;
